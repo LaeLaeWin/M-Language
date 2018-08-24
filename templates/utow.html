@@ -31,20 +31,20 @@
   <div class="container-fluid">
     
     <ul class="nav navbar-nav">
-      <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home">Home</a></li>
+      <li class="active"><a href="{{ url_for('index') }}"><span class="glyphicon glyphicon-home">Home</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Choose Languages <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="ztou.html">ZawGyi to Uni</a></li>
+          <li><a href="{{ url_for('ztou') }}">ZawGyi to Uni</a></li>
           <li class="divider"></li>
-          <li><a href="ztow.html">ZawGyi to Win</a></li>
+          <li><a href="{{ url_for('ztow') }}">ZawGyi to Win</a></li>
           <li class="divider"></li>
-          <li><a href="wtou.html">Win to Uni</a></li>
+          <li><a href="{{ url_for('wtou') }}">Win to Uni</a></li>
           <li class="divider"></li>
-          <li><a href="wtoz.html">Win to ZawGyi</a></li>
+          <li><a href="{{ url_for('wtoz') }}">Win to ZawGyi</a></li>
           <li class="divider"></li>
-          <li><a href="utow.html">Uni to Win</a></li>
+          <li><a href="{{ url_for('utow') }}">Uni to Win</a></li>
           <li class="divider"></li>
-          <li><a href="utoz.html">Uni to ZawGyi</a></li>
+          <li><a href="{{ url_for('utoz') }}">Uni to ZawGyi</a></li>
         </ul>
       </li>
       
